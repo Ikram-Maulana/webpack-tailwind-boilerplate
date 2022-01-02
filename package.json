@@ -1,0 +1,35 @@
+{
+  "name": "webpack-tailwind-boilerplate",
+  "version": "1.0.0",
+  "description": "A Minimal Webpack 5/4 boilerplate with Tailwind CSS 3, TypeScript, PostCSS, Prettier And More.",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "Ikram_Maulana <ikram_maulana@onedrive.web.id>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "autoprefixer": "^10.0.2",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^3.6.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^1.3.1",
+    "postcss": "^8.1.10",
+    "postcss-loader": "^4.1.0",
+    "style-loader": "^1.2.1",
+    "tailwindcss": "^3.0.7",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.0.9",
+    "whatwg-fetch": "^3.2.0"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.5"
+  }
+}
