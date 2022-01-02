@@ -10,11 +10,11 @@ npm install
 ```
 
 ## Instruction for Usage
-- **Development server**
-Build the app in dev mode and run webpack serve
+- **Development server**  
+Build the app in dev mode and run webpack serve  
 `npm run start-dev`
-- **Production Build**
-Build the app in production mode
+- **Production Build**  
+Build the app in production mode  
 `npm run build`
 
 ## License
